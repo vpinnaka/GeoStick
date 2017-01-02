@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Activity"
+            android:icon="@drawable/addgeostick"
+            android:title="Add Geostick" />
+        <item
+            android:id="@+id/nav_igeostick"
+            android:icon="@drawable/igeostick"
+            android:title="I Geostick" />
+        <item
+            android:id="@+id/nav_yougeostick"
+            android:icon="@drawable/yougeostick"
+            android:title="You Geostick" />
+        <item
+            android:id="@+id/nav_wegeostick"
+            android:icon="@drawable/wegeostick"
+            android:title="We Geostick" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share GeoStick" />
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

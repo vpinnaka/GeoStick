@@ -1,0 +1,4 @@
+<resources>
+
+    <string name="firebaseURL">https://geostick.firebaseio.com/</string>
+</resources>

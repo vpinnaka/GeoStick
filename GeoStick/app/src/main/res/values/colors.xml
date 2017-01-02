@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9B26AF</color>
+    <color name="colorPrimaryDark">#7A1EA1</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentdark">#81C784</color>
+    <color name="Background">#ECEFF1</color>
+    <color name="textColor">#ECEFF1</color>
+    <color name="textColorGray">#546E7A</color>
+    <color name="New_geostick_textColor">#000000</color>
+    <color name="navheader">#1A237E</color>
+</resources>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androidprojects.vinaydatta.geostick.signup"
+    style="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="@color/Background">
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/smallmargin">
+
+
+
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallmargin"
+                android:layout_marginTop="@dimen/smallmargin"
+                android:textStyle="italic"
+                android:padding="@dimen/mediumpadding"
+                android:hint="@string/prompt_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:allowUndo="true"
+                android:textColor="#000000"
+                style="@style/AppTheme"
+                android:background="#ffffff"
+                android:textSize="@dimen/mediumfont"/>
+
+
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/smallmargin"
+                    android:layout_marginTop="@dimen/smallmargin"
+                    android:padding="@dimen/mediumpadding"
+                    android:hint="@string/prompt_password"
+                    android:textStyle="italic"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:layout_below="@+id/email"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    style="@style/AppTheme"
+                    android:background="#ffffff"
+                    android:textSize="@dimen/mediumfont"/>
+
+
+            <Button
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallmargin"
+                android:layout_marginTop="@dimen/smallmargin"
+                android:padding="@dimen/mediumpadding"
+                android:layout_below="@+id/password"
+
+                android:text="@string/action_sign_in_short"
+                android:textStyle="bold"
+                android:background="@color/colorAccent"
+                android:textColor="@color/textColor"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/mediumfont"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/SignUp"
+                android:layout_centerHorizontal="true"
+                android:text="Don't have an account yet?"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/SignUp"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallmargin"
+                android:layout_marginTop="@dimen/smallmargin"
+                android:padding="@dimen/mediumpadding"
+                android:layout_alignParentBottom="true"
+                android:text="@string/action_sign_up_short"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/mediumfont"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+</LinearLayout>

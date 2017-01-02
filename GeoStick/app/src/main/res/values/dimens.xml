@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="forgetOrRegister">50dp</dimen>
+    <dimen name="logomargin">50dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_image">50dp</dimen>
+    <dimen name="New_GeoStick_Message">30dp</dimen>
+    <dimen name="Edit_text_topmargin">10dp</dimen>
+    <dimen name="Radio_group_topmargin">40dp</dimen>
+    <dimen name="Radio_group_padding">10dp</dimen>
+    <dimen name="Edit_text_height">150dp</dimen>
+    <dimen name="submit_margin">50dp</dimen>
+    <dimen name="mapsMargin">55dp</dimen>
+
+
+    <dimen name="mediumfont">20dp</dimen>
+    <dimen name="smallfont">15dp</dimen>
+    <dimen name="largefont">50dp</dimen>
+
+    <dimen name="mediummargin">25dp</dimen>
+    <dimen name="smallmargin">16dp</dimen>
+    <dimen name="largemargin">100dp</dimen>
+
+    <dimen name="mediumpadding">10dp</dimen>
+    <dimen name="smallpadding">20dp</dimen>
+    <dimen name="largepadding">30dp</dimen>
+
+
+    <dimen name="newGeostickTitle">20dp</dimen>
+    <dimen name="newGeostickMessage">15dp</dimen>
+
+    <dimen name="newGeostickLargeMargin">25dp</dimen>
+    <dimen name="newGeostickSmallMargin">15dp</dimen>
+
+</resources>
