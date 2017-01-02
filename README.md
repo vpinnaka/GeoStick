@@ -4,6 +4,7 @@
 <ul>
 <li>Firebase back-end services are used</li>
 <li>You GeoStick is under development</li>
+<li>Application is developed for Mobile programming coursework</li>
 </ul>
 <br/>
 <p align="center">
