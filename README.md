@@ -8,6 +8,6 @@
 </ul>
 <br/>
 <p align="center">
-  <img src="GeoStick/GeoStick/UI images/Login.jpg" width="350"/>
-  <img src="GeoStick/GeoStick/UI images/Home screen.jpg" width="350"/>
+  <img src="./GeoStick/UI images/Login.jpg" width="350"/>
+  <img src="./GeoStick/UI images/Home screen.jpg" width="350"/>
 </p>
