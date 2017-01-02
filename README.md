@@ -1,3 +1,6 @@
 # GeoStick
 Android application
-![Screenshot](./Login.jpg?raw=true "application login screen")
+<p align="center">
+  <img src="Login.jpg" width="350"/>
+  <img src="Home screen.jpg" width="350"/>
+</p>
